@@ -40,7 +40,6 @@ soc.religion.christian
 
 The structure of the dataset is like:
 
-  .
     ├── 20news-bydate-train/
     │   ├── alt.atheism
     │   │   ├── 49960
