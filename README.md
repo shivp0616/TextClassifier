@@ -13,6 +13,7 @@ Result(accuracy in %) using default parameters:
 The dataset that is used is 20NewsGroups. It was originally collected by Ken Lang.
 The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups
 The same can be downloaded from http://qwone.com/~jason/20Newsgroups/. I used the "bydate" version since cross-experiment comparison is easier (no randomness in train/test set selection), newsgroup-identifying information has been removed and it's more realistic because the train and test sets are separated in time.
+
 The data is organized into 20 different newsgroups, each corresponding to a different topic.
 Some of the newsgroups are very closely related to each other (e.g. comp.sys.ibm.pc.hardware / comp.sys.mac.hardware), while others are highly unrelated (e.g misc.forsale / soc.religion.christian).
 
