@@ -18,26 +18,26 @@ The data is organized into 20 different newsgroups, each corresponding to a diff
 Some of the newsgroups are very closely related to each other (e.g. comp.sys.ibm.pc.hardware / comp.sys.mac.hardware), while others are highly unrelated (e.g misc.forsale / soc.religion.christian).
 
 Here is a list of the 20 newsgroups, partitioned (more or less) according to subject matter: 
-comp.graphics
-comp.os.ms-windows.misc
-comp.sys.ibm.pc.hardware
-comp.sys.mac.hardware
-comp.windows.x
-rec.autos
-rec.motorcycles
-rec.sport.baseball
-rec.sport.hockey
-sci.crypt
-sci.electronics
-sci.med
-sci.space
-misc.forsale
-talk.politics.misc
-talk.politics.guns
-talk.politics.mideast
-talk.religion.misc
-alt.atheism
-soc.religion.christian
+├──    comp.graphics
+├──    comp.os.ms-windows.misc
+├──    comp.sys.ibm.pc.hardware
+├──    comp.sys.mac.hardware
+├──    comp.windows.x
+├──    rec.autos
+├──    rec.motorcycles
+├──    rec.sport.baseball
+├──    rec.sport.hockey
+├──    sci.crypt
+├──    sci.electronics
+├──    sci.med
+├──    sci.space
+├──    misc.forsale
+├──    talk.politics.misc
+├──    talk.politics.guns
+├──    talk.politics.mideast
+├──    talk.religion.misc
+├──    alt.atheism
+├──    soc.religion.christian
 
 The structure of the dataset is like:
 
