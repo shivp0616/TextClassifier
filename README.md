@@ -41,18 +41,18 @@ soc.religion.christian
 The structure of the dataset is like:
 
     ├── 20news-bydate-train/
-    │   ├── alt.atheism
+    │   ├── alt.atheism/
     │   │   ├── 49960
     │   │   ├── 51060
     │   │   ├── 51119
-    │   ├── comp.graphics
+    │   ├── comp.graphics/
     │   │   ├── 37261
     │   │   ├── 37913
     │   │   ├── 37914
     │   │   ├── 37215
     │   │   ├── 37916
     │   │   ├── 37917    
-    |   ├── comp.os.ms-windows.misc
+    |   ├── comp.os.ms-windows.misc/
     │   │   ├── 10000
     │   │   ├── 10001
     │   │   ├── 10002
