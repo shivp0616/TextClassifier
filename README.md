@@ -4,10 +4,10 @@ The models that we have used here are Support Vector Machine, Random Forest Clas
 
 Result(accuracy in %) using default parameters: 
 
-            SVM   RFC   MNB
-Training    99    99    93
-Testing     84    64    77
-
+|               |SVM     | RFC   |MNB   |
+| ------------- |-------:| -----:|-----:|
+| Training      | 99     | 99    |93    |
+| Testing       | 84     | 64    | 77   |
 
 
 The dataset that is used is 20NewsGroups. It was originally collected by Ken Lang.
