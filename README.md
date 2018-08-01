@@ -40,27 +40,25 @@ soc.religion.christian
 
 The structure of the dataset is like:
 
-20news-bydate-train/
- |-- alt.atheism
-        |-- 49960
-        |-- 51060
-        |-- 51119
-  
- |-- comp.graphics
-        |-- 37261
-        |-- 37913
-        |-- 37914
-        |-- 37915
-        |-- 37916
-        |-- 37917
-        |-- 37918
- |-- comp.os.ms-windows.misc
-        |-- 10000
-        |-- 10001
-        |-- 10002
-        |-- 10003
-        |-- 10004
-        |-- 10005 
+  .
+    ├── 20news-bydate-train/
+    │   ├── alt.atheism
+    │   │   ├── 49960
+    │   │   ├── 51060
+    │   │   ├── 51119
+    │   ├── comp.graphics
+    │   │   ├── 37261
+    │   │   ├── 37913
+    │   │   ├── 37914
+    │   │   ├── 37215
+    │   │   ├── 37916
+    │   │   ├── 37917    
+    |   ├── comp.os.ms-windows.misc
+    │   │   ├── 10000
+    │   │   ├── 10001
+    │   │   ├── 10002
+
+
 
 If you want to work on your own data, all you have to do is to replace the folder's data with your own data.
 The name of each folder will be treated as labels.
