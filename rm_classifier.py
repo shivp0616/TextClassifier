@@ -45,7 +45,7 @@ text_clf_rfc = Pipeline([('vect', CountVectorizer(stop_words='english')), ('tfid
 text_clf_rfc = text_clf_rfc.fit(twenty_train.data, twenty_train.target)
 
 
-# Performance of RF Classifier
+#Performance of RF Classifier
 #on training dataset
 predicted = text_clf_rfc.predict(twenty_train.data)
 np.mean(predicted == twenty_train.target)
@@ -55,5 +55,6 @@ predicted = text_clf_rfc.predict(twenty_test.data)
 np.mean(predicted == twenty_test.target)
 
 #Testing custom data
+#change the testing string with your ows string and test
 testing = ["Well i switched it on and suddenly there was a huge sound and my mac was no more"]
 print(twenty_train.target_names[text_clf_svm.predict(testing)[0]])
